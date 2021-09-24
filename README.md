@@ -1,0 +1,1 @@
+A page about the Canadian punk rock band PUP, made as a tribute page project for Freecodecamp's Responsive Web Design curriculum. 
