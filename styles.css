@@ -1,4 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,400;1,700&family=Lora&display=swap');
+
 body {
     background: linear-gradient(45deg, white, gray);
-    font-family: sans;
+    font-family: Lora, sans-serif;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  max-width: 400px;
+  height: auto;
+}
+
+h1 {
+  font-size: 28px;
+  font-family: Josefin Sans, sans;
+}
+
+h1, h2, h3, .link {
+  text-align: center;
+}
+
+#img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#image {
+  height: auto;
+  padding: 10px;
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: none;
+  padding: none;
+}
+
+#tribute-info {
+  padding: 5px;
+}
+
+li {
+  padding: 10px;
+  text-align: justify;
+  margin-left: 20%;
+  max-width: 800px;
+  line-height: 1.5em;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 18px;
+}
+
+#quote p {
+  margin: 2px;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: purple;
 }
