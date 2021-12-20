@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,400;1,700&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 body {
-    background: linear-gradient(45deg, white, gray);
+    background: rgb(187, 184, 184);
     font-family: Lora, sans-serif;
 }
 
 #title {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 .logo {
@@ -19,11 +18,10 @@ body {
 }
 
 h1 {
-  font-size: 28px;
-  font-family: Josefin Sans, sans;
+  font-size: 32px;
 }
 
-h1, h2, h3, .link {
+h1, h2, .link {
   text-align: center;
 }
 
@@ -33,19 +31,28 @@ h1, h2, h3, .link {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  margin-bottom: 20px;
 }
 
 #image {
   height: auto;
-  padding: 10px;
   max-width: 100%;
+  margin-bottom: 15px;
+  }
+
+#img-caption {
+  font-style: italic;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 28px;
 }
 
 ul {
-  list-style-type: none;
+  
   margin: none;
   padding: none;
+  font-size: 18px;
 }
 
 #tribute-info {
@@ -55,9 +62,9 @@ ul {
 li {
   padding: 10px;
   text-align: justify;
-  margin-left: 20%;
-  max-width: 800px;
-  line-height: 1.5em;
+  margin-left: 10%;
+  max-width: 75%;
+  line-height: 1.75em;
 }
 
 #quote {
@@ -67,11 +74,17 @@ li {
   align-items: center;
   font-weight: 800;
   font-style: italic;
-  font-size: 18px;
+  font-size: 24px;
+  padding: 10px;
 }
 
 #quote p {
-  margin: 2px;
+  margin: 5px;
+}
+
+.link {
+  font-size: 18px;
+  padding: 10px;
 }
 
 a:visited {
